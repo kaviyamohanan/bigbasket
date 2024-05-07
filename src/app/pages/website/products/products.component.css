@@ -1,0 +1,23 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); /* Automatically fit as many cards as possible, each with a minimum width of 18rem */
+    gap: 20px; /* Gap between cards */
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; /* Ensures that the card content doesn't overflow */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
